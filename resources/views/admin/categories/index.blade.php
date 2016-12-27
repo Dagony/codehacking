@@ -1,0 +1,1 @@
+// admin/categories/index.blade.php
