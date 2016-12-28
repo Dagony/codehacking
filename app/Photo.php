@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\File;
 use Illuminate\Database\Eloquent\Model;
 
 class Photo extends Model
@@ -12,6 +13,6 @@ class Photo extends Model
  
 
  	public function getFileAttribute($photo) {
- 		return $this->uploads . $photo;
+		return $this->uploads . $photo;
  	}
 }
