@@ -274,6 +274,7 @@ class ComposerStaticInitc00fee67ef705437d1fbbd1c900fe5c4
         'AddPhotoIdToUsers' => __DIR__ . '/../..' . '/database/migrations/2016_12_27_190134_add_photo_id_to_users.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreatePhotosTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_27_193507_create_photos_table.php',
+        'CreatePostsTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_29_071357_create_posts_table.php',
         'CreateRolesTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_24_145029_create_roles_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
