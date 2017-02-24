@@ -24,8 +24,7 @@
 					<td>{{ $post->category_id ? $post->category->name : 'Uncategorized' }}</td>
 					<td><img width="100" src="{{ $post->photo ? $post->photo->file : '/images/placeholder.png' }}" class="img-responsive img-rounded" /></td>
 					<td>{{ $post->title }}</td>
-					<td>{{ $post->body }}</td>
-					<td>{{ $post->created_at->diffForHumans() }}</td>
+					<td>{{ str_limit($post->body, 30)  }}</td> <td>{{ $post->created_at->diffForHumans() }}</td>
 					<td>{{ $post->updated_at->diffForHumans() }}</td>
 				</tr>
 			@endforeach
